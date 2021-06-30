@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Will's google-homepage project</title>
+    </head>
+
     <body>
-        <div>
-        <header>
-            <nav></nav>
-        </header>
-        <main></main>
-        <form></form>
-        <footer></footer>
+        <div class="flex">
+
+            <header>
+                <nav class="nav">
+                    <ul class="left-align">
+                        <li><a href="https://www.about.google/">About</a></li>
+                        <li><a href="https://www.store.google.com/">Store</a></li>
+                    </ul>
+                    <ul class="right-align">
+                        <li><a href="https://www.gmail.com/">Gmail</a></li>
+                        <li><a href="https://www.images.google.com/">Images</a></li>
+                        <li><a id="none" href="https://about.google/products/" title="apps" class="material-icons">apps</aid="none"></li>
+                        <li><button class="signin">Sign In</button></li>                     
+                    </ul>
+                </nav>
+            </header>
+    
+    
+         <main class="center"> 
+            <img class="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo"> 
+         </main>
+    
+         <form>
+            <input  type="text" id="icons">
+            <button type="button" class="micbutton"></button>
+            <button type="button" class="magbutton"></button> <!-- turn to icon, not button -->
+         </form> 
+    
+        <ul class="center">
+            <li><button class="searchbutton">Google Search</button></li>
+            <li><button class="searchbutton">I'm Feeling Lucky</button></li>
+        </ul> 
+        
+    
+    
+            <footer>
+                <ul class="footer-left">
+                    <li><a class="grey" href="https://ads.google.com">Advertising</a></li>
+                    <li><a class="grey" href="https://smallbusiness.withgoogle.com/">Business</a></a> </li>
+                    <li><a class="grey" href="https://www.google.com/search/howsearchworks/">How Search Works</a></li>
+                </ul>
+                <ul class="footer-right">
+                    <li><a class="grey" href="https://policies.google.com/privacy/">Privacy</a></li>
+                    <li><a class="grey" href="https://policies.google.com/terms/">Terms</a></li>
+                    <li><a class="grey" href="https://www.google.com/preferences/">Settings</a></li>
+                </ul>
+            </footer>
+    
         </div>
     </body>
 </html>
